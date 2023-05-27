@@ -1,0 +1,8 @@
+{
+  "name": "@delivery-app/prettier-config",
+  "version": "0.0.1",
+  "description": "Test task 'Delivery App'/prettier-config",
+  "main": "index.json",
+  "author": "Yevhenii Bieliaiev <yevheniibieliaiev@gmail.com>",
+  "license": "MIT"
+}

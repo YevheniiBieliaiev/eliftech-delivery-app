@@ -1,0 +1,44 @@
+{
+  "name": "@delivery-app/backend",
+  "version": "0.0.1",
+  "description": "Test task 'Delivry-app'",
+  "private": true,
+  "main": "./src/server.ts",
+  "prettier": "@delivery-app/prettier-config",
+  "scripts": {
+    "start": "nodemon -r ts-node --files ./src/server.ts",
+    "build": "tsc && tsc-alias",
+    "serve": "node build/server.js",
+    "generate:db": "ts-node ./src/db_generator/generator.ts",
+    "prettier:check": "prettier --check \"*/**/*.{ts,tsx}\" --loglevel=warn",
+    "prettier:fix": "prettier --write \"*/**/*.{ts,tsx}\" --loglevel=warn",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "author": "Yevhenii Bieliaiev <yevheniibieliaiev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "@delivery-app/prettier-config": "file:../prettier-config",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.4",
+    "@types/uuid": "^9.0.1",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "tsc-alias": "^1.8.6",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  }
+}

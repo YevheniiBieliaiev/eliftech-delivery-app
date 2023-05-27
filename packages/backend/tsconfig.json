@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "module": "NodeNext",
+    "moduleResolution": "node16",
+    "baseUrl": "src",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "noEmit": false,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@interfaces": ["common/interfaces"],
+      "@types": ["common/types"],
+      "@enums": ["common/enums"],
+      "@helpers": ["helpers"],
+      "@providers": ["providers"],
+      "@repositories": ["repositories"],
+      "@services": ["services"],
+      "@routes": ["api/routes"],
+      "@middlewares": ["api/middlewares"],
+      "@validation": ["validation"],
+      "@mappers": ["mappers"]
+    },
+    "outDir": "build"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "delivery-app",
+  "version": "0.0.1",
+  "description": "Test task 'Delivry-app'",
+  "prettier": "@delivery-app/prettier-config",
+  "scripts": {
+    "install:all": "npm install && npm run install:backend && npm run install:frontend",
+    "install:backend": "cd packages/backend && npm install",
+    "install:frontend": "cd packages/frontend && npm install",
+    "build:all": "npm run build:backend && npm run build:frontend",
+    "build:backend": "cd packages/backend && npm run build",
+    "build:frontend": "cd packages/frontend && npm run build",
+    "start:backend": "cd packages/backend && npm run start",
+    "start:frontend": "cd packages/frontend && npm run start",
+    "prettier:check:all": "npm run prettier:check:backend && npm run prettier:check:frontend",
+    "prettier:check:backend": "cd packages/backend && npm run prettier:check",
+    "prettier:check:frontend": "cd packages/frontend && npm run prettier:check",
+    "prettier:fix:all": "npm run prettier:fix:backend && npm run prettier:fix:frontend",
+    "prettier:fix:backend": "cd packages/backend && npm run prettier:fix",
+    "prettier:fix:frontend": "cd packages/frontend && npm run prettier:fix",
+    "lint:all": "npm run lint:backend && npm run lint:frontend",
+    "lint:backend": "cd packages/backend && npm run lint",
+    "lint:frontend": "cd packages/frontend && npm run lint",
+    "lint:fix:all": "npm run lint:fix:backend && npm run lint:fix:frontend",
+    "lint:fix:backend": "cd packages/backend && npm run lint:fix",
+    "lint:fix:frontend": "cd packages/frontend && npm run lint:fix",
+    "fix:packages": "npm run prettier:fix:all && npm run lint:fix:all",
+    "pre-commit": "npm run prettier:fix:all && npm run lint:fix:all",
+    "prepare": "husky install"
+  },
+  "author": "Yevhenii Bieliaiev <yevheniibieliaiev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@delivery-app/prettier-config": "file:packages/prettier-config",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
+    "eslint": "^8.41.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.0",
+    "prettier": "^2.8.8"
+  }
+}
