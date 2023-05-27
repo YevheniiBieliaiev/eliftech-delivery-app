@@ -5,6 +5,6 @@ import { initAuthRouter } from './auth';
 import { initShopsRouter } from './shops';
 
 export const initRoutes = ({ services }: { services: Services }): Router[] => [
-  initAuthRouter(),
+  initAuthRouter(services, ApiRoutes.AUTH),
   initShopsRouter(services, ApiRoutes.SHOP),
 ];

@@ -1,0 +1,6 @@
+export const ValidationRanges = {
+  MIN_LOGIN_SYMBOLS: 1,
+  MAX_LOGIN_SYMBOLS: 40,
+  MIN_PASSWORD_SYMBOLS: 8,
+  MAX_PASSWORD_SYMBOLS: 16,
+};
