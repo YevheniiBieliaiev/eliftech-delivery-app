@@ -1,0 +1,12 @@
+.footer {
+  background: #313253;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #d6d6dd;
+}

@@ -1,5 +1,9 @@
-function App() {
-  return <div className="App"></div>;
-}
+import { AppRouterProvider } from './providers';
+import { userId } from './store/selectors/auth';
+import { useAppSelector } from './hooks';
 
-export default App;
+export const App = () => {
+  const id = useAppSelector(userId);
+
+  return <AppRouterProvider userId={id} />;
+};
