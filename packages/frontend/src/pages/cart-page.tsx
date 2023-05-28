@@ -1,4 +1,4 @@
-import { MainLayout } from '../components';
+import { MainLayout } from 'components';
 
 export const CartPage = () => (
   <MainLayout title="CART">

@@ -1,7 +1,8 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "@delivery-app/frontend",
+  "version": "0.0.1",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",

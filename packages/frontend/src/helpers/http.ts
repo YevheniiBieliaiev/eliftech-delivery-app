@@ -1,12 +1,12 @@
-import { HttpMethod, HttpHeaders, HttpContentType } from '../common/enums';
+import { HttpMethod, HttpHeaders, HttpContentType } from 'common/enums';
 import type {
   ISetRequestOptions,
   IRequestWithData,
   IGetRequest,
   ErrorResponse,
-} from '../common/interfaces';
-import { HttpError } from '../helpers';
-import { store } from '../store';
+} from 'common/interfaces';
+import { HttpError } from 'helpers';
+import { store } from 'store';
 
 class Http {
   private setRequestOptions({

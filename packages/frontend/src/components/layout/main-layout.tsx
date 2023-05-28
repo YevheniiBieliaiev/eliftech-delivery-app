@@ -1,6 +1,6 @@
-import { useTitle } from '../../hooks';
-import { Header, Footer } from '../../components';
-import { Container } from '../primitives';
+import { useTitle } from 'hooks';
+import { Header, Footer } from 'components';
+import { Container } from 'components/primitives';
 import { setTitle } from './utils';
 import type { MainLayoutProps } from './types';
 import classes from './styles.module.css';

@@ -1,7 +1,7 @@
-import { useAppSelector } from '../../hooks';
-import { userId } from '../../store/selectors/auth';
-import { ClientRoutes } from '../../common/enums';
-import { InternalLink, Container } from '../primitives';
+import { useAppSelector } from 'hooks';
+import { userId } from 'store/selectors/auth';
+import { ClientRoutes } from 'common/enums';
+import { InternalLink, Container } from 'components/primitives';
 import classes from './styles.module.css';
 
 export const Header = () => {

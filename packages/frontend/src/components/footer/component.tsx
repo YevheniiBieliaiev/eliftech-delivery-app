@@ -1,4 +1,4 @@
-import { Container } from '../primitives';
+import { Container } from 'components/primitives';
 import classes from './styles.module.css';
 
 export const Footer = () => (

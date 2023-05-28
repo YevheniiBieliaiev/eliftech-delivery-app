@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { shopProducts } from '../../services';
-import type { HttpError } from '../../helpers';
+import { shopProducts } from 'services';
+import type { HttpError } from 'helpers';
 import { SHOP_TYPES } from './action-types';
 
 export const getProducts = createAsyncThunk(

@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import type { IUserResponse } from '../../common/interfaces';
+import type { IUserResponse } from 'common/interfaces';
 import { userRegister, userLogin } from './actions';
 
 interface AuthState extends IUserResponse {

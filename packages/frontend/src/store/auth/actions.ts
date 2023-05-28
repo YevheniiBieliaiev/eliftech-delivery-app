@@ -1,7 +1,7 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import type { ISignIn, ISignUp } from '../../common/interfaces';
-import type { HttpError } from '../../helpers';
-import { signIn, signUp } from '../../services';
+import type { ISignIn, ISignUp } from 'common/interfaces';
+import type { HttpError } from 'helpers';
+import { signIn, signUp } from 'services';
 import { AUTH_TYPES } from './action-types';
 
 export const userRegister = createAsyncThunk(

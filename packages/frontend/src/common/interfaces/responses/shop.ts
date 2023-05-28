@@ -5,6 +5,7 @@ export interface IShopResponse {
 }
 
 export interface IProductResponse {
+  id: string;
   productName: string;
   image: string;
   description: string;

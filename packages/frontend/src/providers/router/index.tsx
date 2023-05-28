@@ -3,8 +3,8 @@ import {
   type RouteObject,
   RouterProvider,
 } from 'react-router-dom';
-import { ClientRoutes } from '../../common/enums';
-import { HomePage, CartPage } from '../../pages';
+import { ClientRoutes } from 'common/enums';
+import { HomePage, CartPage } from 'pages';
 
 interface AppRouterProviderProps {
   userId: string;

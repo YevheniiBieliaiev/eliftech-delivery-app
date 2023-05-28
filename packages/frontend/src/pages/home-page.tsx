@@ -1,7 +1,7 @@
-import { MainLayout } from '../components';
+import { MainLayout, Home } from 'components';
 
 export const HomePage = () => (
   <MainLayout>
-    <div>Home Page</div>
+    <Home />
   </MainLayout>
 );
