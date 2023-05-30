@@ -9,3 +9,21 @@
   border-bottom: 2px solid #313253;
   padding: 20px 0;
 }
+
+.cart__link {
+  position: relative;
+}
+
+.cart__counter {
+  position: absolute;
+  top: -10px;
+  right: -25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #b7e7b7;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+}

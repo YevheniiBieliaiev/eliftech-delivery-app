@@ -17,3 +17,5 @@ export interface ProductNameProps {
 export interface ShopnameProps {
   shopName: string;
 }
+
+export interface InputCounterProps extends React.HTMLProps<HTMLInputElement> {}

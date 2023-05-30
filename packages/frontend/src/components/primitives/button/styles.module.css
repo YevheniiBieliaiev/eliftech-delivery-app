@@ -5,6 +5,7 @@
   border: none;
   border-radius: 4px;
   background-color: transparent;
+  min-height: 35px;
   font-family: inherit;
   font-size: 14px;
   line-height: 22px;
@@ -39,4 +40,14 @@
 
 .active:focus {
   background: grey;
+}
+
+.delete {
+  background: #dd6565;
+  width: 60px;
+  padding: 5px;
+}
+
+.delete:hover {
+  background: #d34a4a;
 }

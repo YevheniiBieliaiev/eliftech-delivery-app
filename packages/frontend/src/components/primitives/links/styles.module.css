@@ -1,5 +1,12 @@
 .internal__link {
-  color: #0d024d
+  border-radius: 4px;
+  padding: 5px;
+  color: #0d024d;
+  text-decoration: none;
+}
+
+.internal__link:hover {
+  background: #cfcbcb;
 }
 
 .inactive {

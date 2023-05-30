@@ -46,3 +46,20 @@
   line-height: 16px;
   color: #335304;
 }
+
+.input__count {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  border: 1px solid transparent;
+  border-radius: 2px;
+  width: 70px;
+  padding: 5px;
+  font-family: 'Nunito, sans-serif';
+  font-size: 14px;
+  font-weight: 700;
+  color: #313253;
+}
+
+.input__count:focus {
+  border-color: #b6b2b2;
+  outline: none;
+}

@@ -1,7 +1,7 @@
-import { MainLayout } from 'components';
+import { MainLayout, Cart } from 'components';
 
 export const CartPage = () => (
   <MainLayout title="CART">
-    <div>Cart Page</div>
+    <Cart />
   </MainLayout>
 );

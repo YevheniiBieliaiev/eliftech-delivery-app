@@ -1,6 +1,9 @@
 import { Button } from 'components/primitives';
+import { storage } from 'helpers';
+import { useAppDispatch } from 'hooks';
+import { getLocalCart } from 'store/cart';
+import type { CardShopProps } from 'common/interfaces';
 import { Image, ProductName, Description, Price, ShopName } from './primitives';
-import type { CardShopProps } from './types';
 import classes from './styles.module.css';
 
 export const CardShop = ({
@@ -12,9 +15,22 @@ export const CardShop = ({
   shopId,
   shopName,
 }: CardShopProps) => {
+  const dispatch = useAppDispatch();
+
   const onAddToCartHandler = () => {
-    console.log(id);
-    console.log(shopId);
+    const productDto: CardShopProps = {
+      id,
+      image,
+      productName,
+      description,
+      price,
+      shopId,
+      shopName,
+      count: 1,
+    };
+
+    storage.set('cart', productDto);
+    dispatch(getLocalCart());
   };
 
   return (
