@@ -38,5 +38,3 @@ export const generateShopsDB = (): void => {
 
   fs.writeFileSync(pathToDbFile, JSON.stringify(shops), 'utf-8');
 };
-
-generateShopsDB();

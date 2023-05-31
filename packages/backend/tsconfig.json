@@ -31,7 +31,7 @@
     "outDir": "build"
   },
   "include": ["src"],
-  "exclude": ["node_modules", "data-base", "logs"],
+  "exclude": ["node_modules", "logs"],
   "ts-node": {
     "require": ["tsconfig-paths/register"]
   }

@@ -1,302 +1,302 @@
 [
   {
-    "productName": "French fries",
-    "image": "https://img.freepik.com/premium-photo/isolated-portion-french-fries_219193-9461.jpg?w=2000",
-    "description": "French fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips. Fries are often salted and served with other items, including ketchup, mayonnaise, or vinegar.",
-    "price": 360,
-    "id": "8a910d61-2440-4039-a564-79a02d478f71",
-    "createdAt": "2023-05-31T16:26:27.958Z",
-    "updatedAt": "2023-05-31T16:26:27.958Z",
-    "shopId": "fab3b055-551b-4a32-8140-7bb57871c226"
-  },
-  {
-    "productName": "French fries",
-    "image": "https://img.freepik.com/premium-photo/isolated-portion-french-fries_219193-9461.jpg?w=2000",
-    "description": "French fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips. Fries are often salted and served with other items, including ketchup, mayonnaise, or vinegar.",
-    "price": 360,
-    "id": "a3a0f7c4-28e2-410d-9d42-6fbec40a8c04",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "fab3b055-551b-4a32-8140-7bb57871c226"
-  },
-  {
     "productName": "Salad",
     "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/05/1600x850/gallery-1454624378-screen-shot-2016-02-04-at-51941-pm.png?resize=1200:*",
     "description": "A salad is a dish consisting of mixed, mostly natural ingredients. They are typically served chilled or at room temperature, though some can be served warm. Condiments and salad dressings, which exist in a variety of flavors, are often used to enhance a salad.",
-    "price": 311,
-    "id": "99ac582c-b2e4-480d-b3df-965856326005",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "fab3b055-551b-4a32-8140-7bb57871c226"
-  },
-  {
-    "productName": "Dessert",
-    "image": "https://i.obozrevatel.com/news/2023/1/11/pavlova.jpg?size=1944x924",
-    "description": "Dessert is a course that concludes a meal. The course consists of sweet foods, such as candy, and possibly a beverage such as dessert wine and liqueur. In some parts of the world, such as Greece and West Africa, and most parts of China, there is no tradition of a dessert course to conclude a meal.",
-    "price": 305,
-    "id": "9eda785f-7e51-484b-b9c7-3e56c23e4c9a",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "fab3b055-551b-4a32-8140-7bb57871c226"
-  },
-  {
-    "productName": "Hamburger",
-    "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
-    "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
-    "price": 332,
-    "id": "31ce34e0-4945-41bc-99e1-c16c30639fa8",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "fab3b055-551b-4a32-8140-7bb57871c226"
-  },
-  {
-    "productName": "Dessert",
-    "image": "https://i.obozrevatel.com/news/2023/1/11/pavlova.jpg?size=1944x924",
-    "description": "Dessert is a course that concludes a meal. The course consists of sweet foods, such as candy, and possibly a beverage such as dessert wine and liqueur. In some parts of the world, such as Greece and West Africa, and most parts of China, there is no tradition of a dessert course to conclude a meal.",
-    "price": 305,
-    "id": "d0c42993-4aaa-48cc-95d6-a373fb475ff7",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "0a8c33c0-7087-4718-a594-d5f29805160b"
-  },
-  {
-    "productName": "Hamburger",
-    "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
-    "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
-    "price": 332,
-    "id": "7552e231-9625-4a79-a819-da9e0260aca5",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "0a8c33c0-7087-4718-a594-d5f29805160b"
-  },
-  {
-    "productName": "Salad",
-    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/05/1600x850/gallery-1454624378-screen-shot-2016-02-04-at-51941-pm.png?resize=1200:*",
-    "description": "A salad is a dish consisting of mixed, mostly natural ingredients. They are typically served chilled or at room temperature, though some can be served warm. Condiments and salad dressings, which exist in a variety of flavors, are often used to enhance a salad.",
-    "price": 311,
-    "id": "ba37fcda-a966-4f31-a545-97f9abf1c3c6",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "0a8c33c0-7087-4718-a594-d5f29805160b"
+    "price": 243,
+    "id": "7be20ec2-5c6d-4b04-abd1-cd25039fc3c3",
+    "createdAt": "2023-05-31T18:18:02.539Z",
+    "updatedAt": "2023-05-31T18:18:02.539Z",
+    "shopId": "2157e4d2-0065-49da-b245-1d8f03dfdff9"
   },
   {
     "productName": "French fries",
     "image": "https://img.freepik.com/premium-photo/isolated-portion-french-fries_219193-9461.jpg?w=2000",
     "description": "French fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips. Fries are often salted and served with other items, including ketchup, mayonnaise, or vinegar.",
-    "price": 360,
-    "id": "0b1d1ad9-9c8b-4cff-9e50-cd37e0b55019",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "0a8c33c0-7087-4718-a594-d5f29805160b"
+    "price": 370,
+    "id": "f67abce7-5637-4df2-ace0-85ff230a5bac",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "2157e4d2-0065-49da-b245-1d8f03dfdff9"
   },
   {
-    "productName": "Drinks",
-    "image": "https://thumbs.dreamstime.com/b/healthy-detox-raw-drink-water-raspberry-strawberry-cherry-isolated-background-png-high-quality-photo-271554651.jpg",
-    "description": "A drink or beverage is a liquid intended for human consumption. In addition to their basic function of satisfying thirst, drinks play important roles in human culture. Common types of drinks include plain drinking water, milk, juice, smoothies and soft drinks. Traditionally warm beverages include coffee, tea, and hot chocolate.",
-    "price": 341,
-    "id": "1f25712d-388f-44f4-9e6d-e5a0138606be",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "0a8c33c0-7087-4718-a594-d5f29805160b"
+    "productName": "Hamburger",
+    "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
+    "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
+    "price": 325,
+    "id": "2e166e23-2808-4a25-b0d3-203393479f4d",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "2157e4d2-0065-49da-b245-1d8f03dfdff9"
+  },
+  {
+    "productName": "Hamburger",
+    "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
+    "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
+    "price": 325,
+    "id": "3e85c879-74bc-4cdc-a6b5-0f9112234921",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "2157e4d2-0065-49da-b245-1d8f03dfdff9"
   },
   {
     "productName": "Dessert",
     "image": "https://i.obozrevatel.com/news/2023/1/11/pavlova.jpg?size=1944x924",
     "description": "Dessert is a course that concludes a meal. The course consists of sweet foods, such as candy, and possibly a beverage such as dessert wine and liqueur. In some parts of the world, such as Greece and West Africa, and most parts of China, there is no tradition of a dessert course to conclude a meal.",
-    "price": 305,
-    "id": "6f110e48-eed2-410c-854a-51bb0ec27ad0",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "7c32ebe6-0579-4b0a-9ab7-412103eed63f"
-  },
-  {
-    "productName": "Salad",
-    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/05/1600x850/gallery-1454624378-screen-shot-2016-02-04-at-51941-pm.png?resize=1200:*",
-    "description": "A salad is a dish consisting of mixed, mostly natural ingredients. They are typically served chilled or at room temperature, though some can be served warm. Condiments and salad dressings, which exist in a variety of flavors, are often used to enhance a salad.",
-    "price": 311,
-    "id": "0fd1f1c0-f877-45c2-a6cc-32e2bf1284e8",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "7c32ebe6-0579-4b0a-9ab7-412103eed63f"
-  },
-  {
-    "productName": "Salad",
-    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/05/1600x850/gallery-1454624378-screen-shot-2016-02-04-at-51941-pm.png?resize=1200:*",
-    "description": "A salad is a dish consisting of mixed, mostly natural ingredients. They are typically served chilled or at room temperature, though some can be served warm. Condiments and salad dressings, which exist in a variety of flavors, are often used to enhance a salad.",
-    "price": 311,
-    "id": "85e62ab9-f1bc-41ab-b39d-dd9884c748f1",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "7c32ebe6-0579-4b0a-9ab7-412103eed63f"
-  },
-  {
-    "productName": "Salad",
-    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/05/1600x850/gallery-1454624378-screen-shot-2016-02-04-at-51941-pm.png?resize=1200:*",
-    "description": "A salad is a dish consisting of mixed, mostly natural ingredients. They are typically served chilled or at room temperature, though some can be served warm. Condiments and salad dressings, which exist in a variety of flavors, are often used to enhance a salad.",
-    "price": 311,
-    "id": "71f0ba01-17e9-4de7-9d5b-e428c824d3a1",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "7c32ebe6-0579-4b0a-9ab7-412103eed63f"
-  },
-  {
-    "productName": "Hamburger",
-    "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
-    "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
-    "price": 332,
-    "id": "7fd200e4-bbcf-412c-af55-8f28c0ceb125",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "7c32ebe6-0579-4b0a-9ab7-412103eed63f"
-  },
-  {
-    "productName": "Drinks",
-    "image": "https://thumbs.dreamstime.com/b/healthy-detox-raw-drink-water-raspberry-strawberry-cherry-isolated-background-png-high-quality-photo-271554651.jpg",
-    "description": "A drink or beverage is a liquid intended for human consumption. In addition to their basic function of satisfying thirst, drinks play important roles in human culture. Common types of drinks include plain drinking water, milk, juice, smoothies and soft drinks. Traditionally warm beverages include coffee, tea, and hot chocolate.",
-    "price": 341,
-    "id": "3620e92c-4ff0-43c0-926d-33b61a855b24",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "302ac6a0-24e6-45d4-a943-a6614bbfecec"
-  },
-  {
-    "productName": "Drinks",
-    "image": "https://thumbs.dreamstime.com/b/healthy-detox-raw-drink-water-raspberry-strawberry-cherry-isolated-background-png-high-quality-photo-271554651.jpg",
-    "description": "A drink or beverage is a liquid intended for human consumption. In addition to their basic function of satisfying thirst, drinks play important roles in human culture. Common types of drinks include plain drinking water, milk, juice, smoothies and soft drinks. Traditionally warm beverages include coffee, tea, and hot chocolate.",
-    "price": 341,
-    "id": "ea9716a4-ac58-448c-8129-35d8a02acc09",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "302ac6a0-24e6-45d4-a943-a6614bbfecec"
-  },
-  {
-    "productName": "Salad",
-    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/05/1600x850/gallery-1454624378-screen-shot-2016-02-04-at-51941-pm.png?resize=1200:*",
-    "description": "A salad is a dish consisting of mixed, mostly natural ingredients. They are typically served chilled or at room temperature, though some can be served warm. Condiments and salad dressings, which exist in a variety of flavors, are often used to enhance a salad.",
-    "price": 311,
-    "id": "e04a1ada-a6c8-42b4-887e-48f8e67fadf1",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "302ac6a0-24e6-45d4-a943-a6614bbfecec"
-  },
-  {
-    "productName": "Drinks",
-    "image": "https://thumbs.dreamstime.com/b/healthy-detox-raw-drink-water-raspberry-strawberry-cherry-isolated-background-png-high-quality-photo-271554651.jpg",
-    "description": "A drink or beverage is a liquid intended for human consumption. In addition to their basic function of satisfying thirst, drinks play important roles in human culture. Common types of drinks include plain drinking water, milk, juice, smoothies and soft drinks. Traditionally warm beverages include coffee, tea, and hot chocolate.",
-    "price": 341,
-    "id": "6926dafe-f298-4d31-9b1f-0fb79cb035f7",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "302ac6a0-24e6-45d4-a943-a6614bbfecec"
-  },
-  {
-    "productName": "Salad",
-    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/05/1600x850/gallery-1454624378-screen-shot-2016-02-04-at-51941-pm.png?resize=1200:*",
-    "description": "A salad is a dish consisting of mixed, mostly natural ingredients. They are typically served chilled or at room temperature, though some can be served warm. Condiments and salad dressings, which exist in a variety of flavors, are often used to enhance a salad.",
-    "price": 311,
-    "id": "0e35ad97-21bd-48ba-973e-eca5d09f0298",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "302ac6a0-24e6-45d4-a943-a6614bbfecec"
+    "price": 250,
+    "id": "885e3066-c814-416f-9f4c-ce709d08949e",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "2157e4d2-0065-49da-b245-1d8f03dfdff9"
   },
   {
     "productName": "Dessert",
     "image": "https://i.obozrevatel.com/news/2023/1/11/pavlova.jpg?size=1944x924",
     "description": "Dessert is a course that concludes a meal. The course consists of sweet foods, such as candy, and possibly a beverage such as dessert wine and liqueur. In some parts of the world, such as Greece and West Africa, and most parts of China, there is no tradition of a dessert course to conclude a meal.",
-    "price": 305,
-    "id": "f9772e8d-49d4-45b9-bea8-dfd297604f8a",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "938154b4-b8d1-4dc7-8477-2ca34325bb27"
-  },
-  {
-    "productName": "Salad",
-    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/05/1600x850/gallery-1454624378-screen-shot-2016-02-04-at-51941-pm.png?resize=1200:*",
-    "description": "A salad is a dish consisting of mixed, mostly natural ingredients. They are typically served chilled or at room temperature, though some can be served warm. Condiments and salad dressings, which exist in a variety of flavors, are often used to enhance a salad.",
-    "price": 311,
-    "id": "b96e4583-6c17-44d5-8f32-1ac70a30b55a",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "938154b4-b8d1-4dc7-8477-2ca34325bb27"
+    "price": 250,
+    "id": "6e590935-c194-4850-ae24-c04b6036ac83",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "1a99821b-06b3-42ea-ac6a-d79828080457"
   },
   {
     "productName": "Drinks",
     "image": "https://thumbs.dreamstime.com/b/healthy-detox-raw-drink-water-raspberry-strawberry-cherry-isolated-background-png-high-quality-photo-271554651.jpg",
     "description": "A drink or beverage is a liquid intended for human consumption. In addition to their basic function of satisfying thirst, drinks play important roles in human culture. Common types of drinks include plain drinking water, milk, juice, smoothies and soft drinks. Traditionally warm beverages include coffee, tea, and hot chocolate.",
-    "price": 341,
-    "id": "f02a7446-3e3a-4833-829b-4933b14a26ba",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "938154b4-b8d1-4dc7-8477-2ca34325bb27"
+    "price": 325,
+    "id": "00c51546-6f2a-4c8e-8421-6eee78f78284",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "1a99821b-06b3-42ea-ac6a-d79828080457"
   },
   {
     "productName": "Hamburger",
     "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
     "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
-    "price": 332,
-    "id": "a03068c3-6f9c-4935-88ae-10bc3feed62c",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "938154b4-b8d1-4dc7-8477-2ca34325bb27"
+    "price": 325,
+    "id": "1716e495-e3f8-4764-9abf-789d7555daec",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "1a99821b-06b3-42ea-ac6a-d79828080457"
   },
   {
     "productName": "Hamburger",
     "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
     "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
-    "price": 332,
-    "id": "9b4cd410-a806-4fa6-a888-a89d274515a5",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "938154b4-b8d1-4dc7-8477-2ca34325bb27"
+    "price": 325,
+    "id": "6b1286bb-594a-470b-90d7-669ffa55f83d",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "1a99821b-06b3-42ea-ac6a-d79828080457"
   },
   {
     "productName": "French fries",
     "image": "https://img.freepik.com/premium-photo/isolated-portion-french-fries_219193-9461.jpg?w=2000",
     "description": "French fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips. Fries are often salted and served with other items, including ketchup, mayonnaise, or vinegar.",
-    "price": 360,
-    "id": "01356192-2e1c-4d39-8060-854a8d73b50e",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "61165a96-b347-4dd1-badf-9f710410094b"
-  },
-  {
-    "productName": "Dessert",
-    "image": "https://i.obozrevatel.com/news/2023/1/11/pavlova.jpg?size=1944x924",
-    "description": "Dessert is a course that concludes a meal. The course consists of sweet foods, such as candy, and possibly a beverage such as dessert wine and liqueur. In some parts of the world, such as Greece and West Africa, and most parts of China, there is no tradition of a dessert course to conclude a meal.",
-    "price": 305,
-    "id": "e51050a3-af9a-458d-891b-958239865922",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "61165a96-b347-4dd1-badf-9f710410094b"
-  },
-  {
-    "productName": "French fries",
-    "image": "https://img.freepik.com/premium-photo/isolated-portion-french-fries_219193-9461.jpg?w=2000",
-    "description": "French fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips. Fries are often salted and served with other items, including ketchup, mayonnaise, or vinegar.",
-    "price": 360,
-    "id": "96828d95-e581-41fb-b5bc-2ca26dff7d96",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "61165a96-b347-4dd1-badf-9f710410094b"
+    "price": 370,
+    "id": "628bd001-35b0-4cf9-a123-a9777244feb1",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "1a99821b-06b3-42ea-ac6a-d79828080457"
   },
   {
     "productName": "Hamburger",
     "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
     "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
-    "price": 332,
-    "id": "31dc1f68-cfa1-429a-828a-e718513e5a62",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "61165a96-b347-4dd1-badf-9f710410094b"
+    "price": 325,
+    "id": "d7c0268b-5fa3-4c2f-8ebb-37f8e8fa11fb",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "7db4f04c-6d8c-4ad7-94dc-db4a44321c16"
+  },
+  {
+    "productName": "Hamburger",
+    "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
+    "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
+    "price": 325,
+    "id": "c5cad586-952e-4c44-9276-b4cd587e62e5",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "7db4f04c-6d8c-4ad7-94dc-db4a44321c16"
+  },
+  {
+    "productName": "Salad",
+    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/05/1600x850/gallery-1454624378-screen-shot-2016-02-04-at-51941-pm.png?resize=1200:*",
+    "description": "A salad is a dish consisting of mixed, mostly natural ingredients. They are typically served chilled or at room temperature, though some can be served warm. Condiments and salad dressings, which exist in a variety of flavors, are often used to enhance a salad.",
+    "price": 243,
+    "id": "36dc9e07-b795-446c-b0ae-10b65a1d58d8",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "7db4f04c-6d8c-4ad7-94dc-db4a44321c16"
+  },
+  {
+    "productName": "Salad",
+    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/05/1600x850/gallery-1454624378-screen-shot-2016-02-04-at-51941-pm.png?resize=1200:*",
+    "description": "A salad is a dish consisting of mixed, mostly natural ingredients. They are typically served chilled or at room temperature, though some can be served warm. Condiments and salad dressings, which exist in a variety of flavors, are often used to enhance a salad.",
+    "price": 243,
+    "id": "bea3c05a-6c1c-4890-a07b-b7b0ce431eb3",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "7db4f04c-6d8c-4ad7-94dc-db4a44321c16"
+  },
+  {
+    "productName": "Hamburger",
+    "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
+    "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
+    "price": 325,
+    "id": "f308fe8f-d1c6-484a-a490-76f8bd5aa999",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "7db4f04c-6d8c-4ad7-94dc-db4a44321c16"
+  },
+  {
+    "productName": "Hamburger",
+    "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
+    "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
+    "price": 325,
+    "id": "d3eb25de-532a-438f-8166-028aa15fede5",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "686012c7-82b8-45ce-88da-075c21b53a14"
+  },
+  {
+    "productName": "Hamburger",
+    "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
+    "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
+    "price": 325,
+    "id": "41f4b078-2b2b-4379-866a-b528a437ad40",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "686012c7-82b8-45ce-88da-075c21b53a14"
+  },
+  {
+    "productName": "Salad",
+    "image": "https://hips.hearstapps.com/del.h-cdn.co/assets/16/05/1600x850/gallery-1454624378-screen-shot-2016-02-04-at-51941-pm.png?resize=1200:*",
+    "description": "A salad is a dish consisting of mixed, mostly natural ingredients. They are typically served chilled or at room temperature, though some can be served warm. Condiments and salad dressings, which exist in a variety of flavors, are often used to enhance a salad.",
+    "price": 243,
+    "id": "fca89e4d-8c3b-4387-b89f-15298efa2c02",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "686012c7-82b8-45ce-88da-075c21b53a14"
   },
   {
     "productName": "Drinks",
     "image": "https://thumbs.dreamstime.com/b/healthy-detox-raw-drink-water-raspberry-strawberry-cherry-isolated-background-png-high-quality-photo-271554651.jpg",
     "description": "A drink or beverage is a liquid intended for human consumption. In addition to their basic function of satisfying thirst, drinks play important roles in human culture. Common types of drinks include plain drinking water, milk, juice, smoothies and soft drinks. Traditionally warm beverages include coffee, tea, and hot chocolate.",
-    "price": 341,
-    "id": "10d730c3-75ee-4426-a11c-13ce0f3a7f58",
-    "createdAt": "2023-05-31T16:26:27.959Z",
-    "updatedAt": "2023-05-31T16:26:27.959Z",
-    "shopId": "61165a96-b347-4dd1-badf-9f710410094b"
+    "price": 325,
+    "id": "364ecf7f-fb52-4676-aa2e-7fc96809eede",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "686012c7-82b8-45ce-88da-075c21b53a14"
+  },
+  {
+    "productName": "Hamburger",
+    "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
+    "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
+    "price": 325,
+    "id": "14edfbd7-afa2-4264-bb4f-25afc4eba353",
+    "createdAt": "2023-05-31T18:18:02.540Z",
+    "updatedAt": "2023-05-31T18:18:02.540Z",
+    "shopId": "686012c7-82b8-45ce-88da-075c21b53a14"
+  },
+  {
+    "productName": "French fries",
+    "image": "https://img.freepik.com/premium-photo/isolated-portion-french-fries_219193-9461.jpg?w=2000",
+    "description": "French fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips. Fries are often salted and served with other items, including ketchup, mayonnaise, or vinegar.",
+    "price": 370,
+    "id": "7dad840e-b4a0-4d05-ba8b-ecf7b55c1ded",
+    "createdAt": "2023-05-31T18:18:02.541Z",
+    "updatedAt": "2023-05-31T18:18:02.541Z",
+    "shopId": "7ca866cb-89d5-4995-88be-ff9bb2d9b505"
+  },
+  {
+    "productName": "Dessert",
+    "image": "https://i.obozrevatel.com/news/2023/1/11/pavlova.jpg?size=1944x924",
+    "description": "Dessert is a course that concludes a meal. The course consists of sweet foods, such as candy, and possibly a beverage such as dessert wine and liqueur. In some parts of the world, such as Greece and West Africa, and most parts of China, there is no tradition of a dessert course to conclude a meal.",
+    "price": 250,
+    "id": "cfffac81-6143-436f-9e0e-a60ac465146e",
+    "createdAt": "2023-05-31T18:18:02.541Z",
+    "updatedAt": "2023-05-31T18:18:02.541Z",
+    "shopId": "7ca866cb-89d5-4995-88be-ff9bb2d9b505"
+  },
+  {
+    "productName": "French fries",
+    "image": "https://img.freepik.com/premium-photo/isolated-portion-french-fries_219193-9461.jpg?w=2000",
+    "description": "French fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips. Fries are often salted and served with other items, including ketchup, mayonnaise, or vinegar.",
+    "price": 370,
+    "id": "3a675e6a-1f17-4cde-860e-a839f35a41cf",
+    "createdAt": "2023-05-31T18:18:02.541Z",
+    "updatedAt": "2023-05-31T18:18:02.541Z",
+    "shopId": "7ca866cb-89d5-4995-88be-ff9bb2d9b505"
+  },
+  {
+    "productName": "French fries",
+    "image": "https://img.freepik.com/premium-photo/isolated-portion-french-fries_219193-9461.jpg?w=2000",
+    "description": "French fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips. Fries are often salted and served with other items, including ketchup, mayonnaise, or vinegar.",
+    "price": 370,
+    "id": "dd9dae5d-82b1-4d72-a11c-807bed18d315",
+    "createdAt": "2023-05-31T18:18:02.541Z",
+    "updatedAt": "2023-05-31T18:18:02.541Z",
+    "shopId": "7ca866cb-89d5-4995-88be-ff9bb2d9b505"
+  },
+  {
+    "productName": "Drinks",
+    "image": "https://thumbs.dreamstime.com/b/healthy-detox-raw-drink-water-raspberry-strawberry-cherry-isolated-background-png-high-quality-photo-271554651.jpg",
+    "description": "A drink or beverage is a liquid intended for human consumption. In addition to their basic function of satisfying thirst, drinks play important roles in human culture. Common types of drinks include plain drinking water, milk, juice, smoothies and soft drinks. Traditionally warm beverages include coffee, tea, and hot chocolate.",
+    "price": 325,
+    "id": "3faa962b-8136-4fce-9687-08813fa358bc",
+    "createdAt": "2023-05-31T18:18:02.541Z",
+    "updatedAt": "2023-05-31T18:18:02.541Z",
+    "shopId": "7ca866cb-89d5-4995-88be-ff9bb2d9b505"
+  },
+  {
+    "productName": "French fries",
+    "image": "https://img.freepik.com/premium-photo/isolated-portion-french-fries_219193-9461.jpg?w=2000",
+    "description": "French fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips. Fries are often salted and served with other items, including ketchup, mayonnaise, or vinegar.",
+    "price": 370,
+    "id": "20be3d0f-c445-4377-af7a-6c6fd6f4b3a4",
+    "createdAt": "2023-05-31T18:18:02.541Z",
+    "updatedAt": "2023-05-31T18:18:02.541Z",
+    "shopId": "85dcea5d-b8c8-4873-9072-c40b5ee090eb"
+  },
+  {
+    "productName": "French fries",
+    "image": "https://img.freepik.com/premium-photo/isolated-portion-french-fries_219193-9461.jpg?w=2000",
+    "description": "French fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips. Fries are often salted and served with other items, including ketchup, mayonnaise, or vinegar.",
+    "price": 370,
+    "id": "d0686502-2e3e-4ef0-a8d7-5ca5b9942a59",
+    "createdAt": "2023-05-31T18:18:02.541Z",
+    "updatedAt": "2023-05-31T18:18:02.541Z",
+    "shopId": "85dcea5d-b8c8-4873-9072-c40b5ee090eb"
+  },
+  {
+    "productName": "Hamburger",
+    "image": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyJTIwcG5nfGVufDB8fDB8fHww&w=1000&q=80",
+    "description": "A hamburger is an extremely popular sandwich consisting of one or more meat patties placed in a bun or a bread roll. The meat is usually accompanied by various ingredients such as tomato slices, onions, pickles, or lettuce, and numerous condiments such as mayonnaise, ketchup, or salsa.",
+    "price": 325,
+    "id": "a6604b35-70b1-4e95-9926-3816d39a0c2e",
+    "createdAt": "2023-05-31T18:18:02.541Z",
+    "updatedAt": "2023-05-31T18:18:02.541Z",
+    "shopId": "85dcea5d-b8c8-4873-9072-c40b5ee090eb"
+  },
+  {
+    "productName": "Drinks",
+    "image": "https://thumbs.dreamstime.com/b/healthy-detox-raw-drink-water-raspberry-strawberry-cherry-isolated-background-png-high-quality-photo-271554651.jpg",
+    "description": "A drink or beverage is a liquid intended for human consumption. In addition to their basic function of satisfying thirst, drinks play important roles in human culture. Common types of drinks include plain drinking water, milk, juice, smoothies and soft drinks. Traditionally warm beverages include coffee, tea, and hot chocolate.",
+    "price": 325,
+    "id": "ae8ae7d2-e9d0-4d52-9f01-cfe71236e009",
+    "createdAt": "2023-05-31T18:18:02.541Z",
+    "updatedAt": "2023-05-31T18:18:02.541Z",
+    "shopId": "85dcea5d-b8c8-4873-9072-c40b5ee090eb"
+  },
+  {
+    "productName": "Dessert",
+    "image": "https://i.obozrevatel.com/news/2023/1/11/pavlova.jpg?size=1944x924",
+    "description": "Dessert is a course that concludes a meal. The course consists of sweet foods, such as candy, and possibly a beverage such as dessert wine and liqueur. In some parts of the world, such as Greece and West Africa, and most parts of China, there is no tradition of a dessert course to conclude a meal.",
+    "price": 250,
+    "id": "64cf57c2-8f03-47eb-9163-453a989ce71e",
+    "createdAt": "2023-05-31T18:18:02.541Z",
+    "updatedAt": "2023-05-31T18:18:02.541Z",
+    "shopId": "85dcea5d-b8c8-4873-9072-c40b5ee090eb"
   }
 ]
