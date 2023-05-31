@@ -12,10 +12,10 @@ export const initAuthRouter = (services: Services, path: ApiRoutes): Router => {
     apiPath(path, AuthRoutes.SIGN_UP),
     signUpValidation,
     requestWrapper(async (req) => {
-      const { login, email, password } = <ISignUp>req?.body;
+      const { name, email, password } = <ISignUp>req?.body;
 
       const user = await services.authServices.createUser({
-        login,
+        name,
         email,
         password,
       });

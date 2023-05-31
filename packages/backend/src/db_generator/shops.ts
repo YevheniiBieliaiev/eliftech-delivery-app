@@ -14,7 +14,7 @@ const shopList = [
 
 export const generateShopsDB = (): void => {
   const serverPath = path.dirname(process.argv[1]);
-  const pathToDbFile = path.join(serverPath, '../data-base', 'shops.json');
+  const pathToDbFile = path.join(serverPath, '../../data-base', 'shops.json');
 
   const shops = <IShopModel[]>(
     JSON.parse(fs.readFileSync(pathToDbFile, 'utf-8'))
@@ -23,11 +23,13 @@ export const generateShopsDB = (): void => {
   shopList.forEach((shop) => {
     const isExists = shops.some(({ shopName }) => shopName === shop);
     if (!isExists) {
+      const date = new Date();
+
       const shopDto: IShopModel = {
         id: uuidv4(),
         shopName: shop,
-        createdAt: new Date(),
-        updatedAt: new Date(),
+        createdAt: date,
+        updatedAt: date,
       };
 
       shops.push(shopDto);

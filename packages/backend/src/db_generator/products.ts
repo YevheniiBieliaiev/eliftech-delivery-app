@@ -56,10 +56,14 @@ export const generateProductsDB = (): void => {
   const prodsLimit = 5;
 
   const serverPath = path.dirname(process.argv[1]);
-  const pathToShopsDbFile = path.join(serverPath, '../data-base', 'shops.json');
+  const pathToShopsDbFile = path.join(
+    serverPath,
+    '../../data-base',
+    'shops.json',
+  );
   const pathToProductsDbFile = path.join(
     serverPath,
-    '../data-base',
+    '../../data-base',
     'products.json',
   );
 
@@ -76,11 +80,12 @@ export const generateProductsDB = (): void => {
     for (let i = 0; i < prodsLimit; i++) {
       const product = products[Math.floor(Math.random() * products.length)];
 
+      const date = new Date();
       const productDro: IProductModel = {
         ...product,
         id: uuidv4(),
-        createdAt: new Date(),
-        updatedAt: new Date(),
+        createdAt: date,
+        updatedAt: date,
         shopId: id,
       };
 

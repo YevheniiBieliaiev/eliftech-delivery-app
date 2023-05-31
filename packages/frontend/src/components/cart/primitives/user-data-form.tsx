@@ -20,7 +20,7 @@ export const UserData = () => {
     formState: { errors },
   } = useForm<IOrderPersonalData>({
     defaultValues: {
-      login: '',
+      name: '',
       email: '',
       phone: '',
       address: '',
@@ -36,11 +36,11 @@ export const UserData = () => {
       <form onSubmit={handleSubmit(onSignupHandler)} className={classes.form}>
         <div className={classes.row}>
           <InputText
-            {...register('login')}
-            id="login"
+            {...register('name')}
+            id="name"
             label="Name"
             placeholder="Enter your name"
-            error={errors.login?.message}
+            error={errors.name?.message}
             autoComplete="off"
           />
         </div>

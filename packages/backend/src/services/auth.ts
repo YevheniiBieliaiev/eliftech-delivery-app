@@ -22,7 +22,7 @@ export class AuthServices {
   }
 
   public async createUser({
-    login,
+    name,
     email,
     password,
   }: ISignUp): Promise<IUserMap> {
@@ -40,7 +40,7 @@ export class AuthServices {
     const { passwordHash, salt } = this.hashServices.setPassword({ password });
 
     return this.authRepository.createUser({
-      login,
+      name,
       email,
       passwordHash,
       salt,

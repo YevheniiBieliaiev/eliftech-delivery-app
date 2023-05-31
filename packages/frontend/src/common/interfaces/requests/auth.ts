@@ -1,5 +1,5 @@
 export interface ISignUp {
-  login: string;
+  name: string;
   email: string;
   password: string;
 }
@@ -10,7 +10,7 @@ export interface ISignIn {
 }
 
 export interface IOrderPersonalData {
-  login: string;
+  name: string;
   email: string;
   phone: string;
   address: string;

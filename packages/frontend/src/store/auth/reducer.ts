@@ -8,7 +8,7 @@ interface AuthState extends IUserResponse {
 
 const initialState: AuthState = {
   id: '',
-  login: '',
+  name: '',
   email: '',
   loading: false,
 };
@@ -22,9 +22,9 @@ const authSlice = createSlice({
       state.loading = true;
     });
     builder.addCase(userRegister.fulfilled, (state, action) => {
-      const { login, id, email } = action.payload;
+      const { name, id, email } = action.payload;
       state.id = id;
-      state.login = login;
+      state.name = name;
       state.email = email;
       state.loading = false;
     });
@@ -36,9 +36,9 @@ const authSlice = createSlice({
       state.loading = true;
     });
     builder.addCase(userLogin.fulfilled, (state, action) => {
-      const { id, login, email } = action.payload;
+      const { id, name, email } = action.payload;
       state.id = id;
-      state.login = login;
+      state.name = name;
       state.email = email;
       state.loading = false;
     });

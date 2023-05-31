@@ -21,7 +21,7 @@ export class AuthRepository {
 
   public async createUser({
     email,
-    login,
+    name,
     passwordHash,
     salt,
   }: IUserCreate): Promise<IUserMap> {
@@ -41,7 +41,7 @@ export class AuthRepository {
       id: uuidv4(),
       createdAt: new Date(),
       updatedAt: new Date(),
-      login,
+      name,
       email,
       salt,
       passwordHash,

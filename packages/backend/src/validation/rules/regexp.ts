@@ -1,4 +1,4 @@
-export const LOGIN_REGEXP =
+export const NAME_REGEXP =
   /^(?![-'])(([\da-zA-Z\-']+))?[^-'~!@#$%^*_=+[{\]}/;:.,?]$/;
 
 export const EMAIL_REGEXP =

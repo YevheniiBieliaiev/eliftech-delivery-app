@@ -1,6 +1,6 @@
 export interface IUserModel {
   id: string;
-  login: string;
+  name: string;
   email: string;
   salt: string;
   passwordHash: string;

@@ -1,6 +1,6 @@
 import { ErrorMessages } from '@enums';
 import {
-  LOGIN_REGEXP,
+  NAME_REGEXP,
   EMAIL_REGEXP,
   PASSWORD_REGEXP,
   ValidationRanges,
@@ -37,18 +37,18 @@ export const passwordValidation = (password: string): string | null => {
   return null;
 };
 
-export const loginValidation = (login: string): string | null => {
-  const length = login.trim().length;
+export const loginValidation = (name: string): string | null => {
+  const length = name.trim().length;
   if (
-    length < ValidationRanges.MIN_LOGIN_SYMBOLS ||
-    length > ValidationRanges.MAX_LOGIN_SYMBOLS
+    length < ValidationRanges.MIN_NAME_SYMBOLS ||
+    length > ValidationRanges.MAX_NAME_SYMBOLS
   ) {
-    return ErrorMessages.LOGIN_VALIDATION;
+    return ErrorMessages.NAME_VALIDATION;
   }
 
-  const isPattern = LOGIN_REGEXP.test(login);
+  const isPattern = NAME_REGEXP.test(name);
   if (!isPattern) {
-    return ErrorMessages.LOGIN_VALIDATION;
+    return ErrorMessages.NAME_VALIDATION;
   }
 
   return null;

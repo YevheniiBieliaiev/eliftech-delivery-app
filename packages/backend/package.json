@@ -9,7 +9,7 @@
     "start": "nodemon -r ts-node --files ./src/server.ts",
     "build": "tsc && tsc-alias",
     "serve": "node build/server.js",
-    "generate:db": "ts-node ./src/db_generator/generator.ts",
+    "db:generate": "ts-node ./src/db_generator/generator.ts",
     "prettier:check": "prettier --check \"*/**/*.{ts,tsx}\" --loglevel=warn",
     "prettier:fix": "prettier --write \"*/**/*.{ts,tsx}\" --loglevel=warn",
     "lint": "eslint . --ext .ts",

@@ -4,6 +4,6 @@ export interface IUserHashes {
 }
 
 export interface IUserCreate extends IUserHashes {
-  login: string;
+  name: string;
   email: string;
 }

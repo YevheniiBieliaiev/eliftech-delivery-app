@@ -3,6 +3,7 @@ import type { InitServices } from '@interfaces';
 import { ShopsServices } from './shops';
 import { AuthServices } from './auth';
 import { HashServices } from './hash';
+import { OrdersService } from './orders';
 
 export const initServices = ({
   repositories,
@@ -21,9 +22,17 @@ export const initServices = ({
       authRepository: repositories.authRepositiry,
       hashServices,
     }),
+    ordersService: new OrdersService({
+      ordersRepository: repositories.ordersRepository,
+    }),
   };
 };
 
 export type Services = ReturnType<typeof initServices>;
 
-export { type ShopsServices, type AuthServices, type HashServices };
+export {
+  type ShopsServices,
+  type AuthServices,
+  type HashServices,
+  type OrdersService,
+};
