@@ -16,4 +16,5 @@ export enum AuthRoutes {
 
 export enum OrderRoutes {
   SEND_ORDER = '/send-order',
+  GET_ORDERS = '/get-orders',
 }

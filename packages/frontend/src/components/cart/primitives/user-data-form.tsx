@@ -4,6 +4,7 @@ import { useAppDispatch, useAppSelector } from 'hooks';
 import { submitOrder } from 'store/order';
 import { orderLoader } from 'store/selectors/order';
 import { cart } from 'store/selectors/cart';
+import { clearCart } from 'store/cart';
 import { InputText, Button, Spinner } from 'components/primitives';
 import { totalPrice } from './utils';
 import classes from './styles.module.css';
@@ -29,6 +30,10 @@ export const UserData = () => {
 
   const onSignupHandler: SubmitHandler<IOrderPersonalData> = (personalData) => {
     dispatch(submitOrder({ products, personalData }));
+  };
+
+  const onClearCart = () => {
+    dispatch(clearCart());
   };
 
   return (
@@ -84,6 +89,9 @@ export const UserData = () => {
             {loading ? <Spinner contrast="dark" /> : 'Submit'}
           </Button>
         </div>
+        <Button onClick={onClearCart} cssExtension="delete">
+          Clear cart
+        </Button>
       </form>
     </div>
   );

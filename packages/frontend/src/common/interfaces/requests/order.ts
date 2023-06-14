@@ -5,3 +5,7 @@ export interface IOrderRequest {
   personalData: IOrderPersonalData;
   products: CardShopProps[];
 }
+
+export interface IOrderIdentifier {
+  orderIdentifier: string;
+}

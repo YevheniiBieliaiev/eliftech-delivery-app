@@ -18,9 +18,13 @@ const cartSlice = createSlice({
       const data = storage.get('cart') as CardShopProps[];
       state.chosenProducts = data;
     },
+    clearCart(state) {
+      storage.clear('cart');
+      state.chosenProducts = [];
+    },
   },
 });
 
 export const cartReducer = cartSlice.reducer;
 
-export const { getLocalCart } = cartSlice.actions;
+export const { getLocalCart, clearCart } = cartSlice.actions;
