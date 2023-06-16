@@ -9,7 +9,6 @@
     "install:frontend": "cd packages/frontend && npm install",
     "db:generate": "cd packages/backend && npm run db:generate",
     "build:all": "npm run build:backend && npm run build:frontend",
-    "build:digitalocean": "npm install:all --production=false && npm run build:all && npm ci",
     "build:backend": "cd packages/backend && npm run build",
     "build:frontend": "cd packages/frontend && npm run build",
     "start:backend": "cd packages/backend && npm run start",

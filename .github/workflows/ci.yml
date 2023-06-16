@@ -1,13 +1,12 @@
-name: Lint and build
+name: Lint
 
 on:
   push: 
     branches: ['main']
 
-
 jobs: 
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout
@@ -21,7 +20,14 @@ jobs:
       - name: Install dependencies
         run: npm run install:all
 
+      - name: Generate DB
+        run: npm run db:generate  
+
       - name: Check code quality
         run: |
           npm run prettier:check:all
           npm run lint:all
+
+      - name: Build
+        run: | 
+          npm run build:all
