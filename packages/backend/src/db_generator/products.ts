@@ -56,11 +56,7 @@ export const generateProductsDB = (): void => {
   const prodsLimit = 5;
 
   const serverPath = path.dirname(process.argv[1]);
-  const pathToShopsDbFile = path.join(
-    serverPath,
-    '../data-base',
-    'shops.json',
-  );
+  const pathToShopsDbFile = path.join(serverPath, '../data-base', 'shops.json');
   const pathToProductsDbFile = path.join(
     serverPath,
     '../data-base',
