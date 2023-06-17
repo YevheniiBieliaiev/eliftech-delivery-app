@@ -1,10 +1,10 @@
 name: Lint
 
 on:
-  push: 
+  push:
     branches: ['main']
 
-jobs: 
+jobs:
   build:
     runs-on: self-hosted
 
@@ -21,7 +21,7 @@ jobs:
         run: npm run install:all
 
       - name: Generate DB
-        run: npm run db:generate  
+        run: npm run db:generate
 
       - name: Check code quality
         run: |
@@ -29,5 +29,10 @@ jobs:
           npm run lint:all
 
       - name: Build
-        run: | 
+        run: |
           npm run build:all
+          cd ..
+          pm2 stop 0
+          pm2 start 0
+          pm2 save
+          sudo service nginx restart
