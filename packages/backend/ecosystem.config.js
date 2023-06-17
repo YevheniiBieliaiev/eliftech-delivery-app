@@ -5,7 +5,7 @@ module.exports = {
       script: './build/server.js',
       watch: true,
       ignore_watch: ['node_modules', 'logs'],
-      env_prod: {
+      env_production: {
         'PORT': 3001,
         'NODE_ENV': 'production',
       },
