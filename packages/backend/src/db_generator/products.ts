@@ -58,12 +58,12 @@ export const generateProductsDB = (): void => {
   const serverPath = path.dirname(process.argv[1]);
   const pathToShopsDbFile = path.join(
     serverPath,
-    '../../data-base',
+    '../data-base',
     'shops.json',
   );
   const pathToProductsDbFile = path.join(
     serverPath,
-    '../../data-base',
+    '../data-base',
     'products.json',
   );
 

@@ -13,7 +13,7 @@ const createDBdir = async (): Promise<void> => {
     'orders.json',
   ];
   const serverPath = path.dirname(process.argv[1]);
-  const pathToDB = path.join(serverPath, `../../${dbDirName}`);
+  const pathToDB = path.join(serverPath, `../${dbDirName}`);
 
   const mkDirPromise = promisify(fs.mkdir);
   await mkDirPromise(pathToDB, { recursive: true }).then(() => {
@@ -27,7 +27,7 @@ const createDBdir = async (): Promise<void> => {
 };
 
 /**
- * generateProductsDB is related with generateShopsDB, so we need to add generateShopsDB first in generators list
+ * generateProductsDB is related with generateShopsDB, so need to add generateShopsDB first in generators list
  */
 type GeneratorFn = () => void;
 

@@ -14,7 +14,7 @@ const shopList = [
 
 export const generateShopsDB = (): void => {
   const serverPath = path.dirname(process.argv[1]);
-  const pathToDbFile = path.join(serverPath, '../../data-base', 'shops.json');
+  const pathToDbFile = path.join(serverPath, '../data-base', 'shops.json');
 
   const shops = <IShopModel[]>(
     JSON.parse(fs.readFileSync(pathToDbFile, 'utf-8'))
