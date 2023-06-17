@@ -4,9 +4,9 @@
   "description": "Test task 'Delivry-app'",
   "prettier": "@delivery-app/prettier-config",
   "scripts": {
-    "install:all": "npm ci && npm run install:backend && npm run install:frontend",
-    "install:backend": "cd packages/backend && npm ci",
-    "install:frontend": "cd packages/frontend && npm ci",
+    "install:all": "npm install && npm run install:backend && npm run install:frontend",
+    "install:backend": "cd packages/backend && npm install",
+    "install:frontend": "cd packages/frontend && npm install",
     "db:generate": "cd packages/backend && npm run db:generate",
     "build:all": "npm run build:backend && npm run build:frontend",
     "build:backend": "cd packages/backend && npm run build",

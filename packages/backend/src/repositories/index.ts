@@ -6,7 +6,7 @@ import { OrdersRepository } from './orders';
 
 export const initRepositories = (): InitRepositories => {
   const serverPath = path.dirname(process.argv[1]);
-  const pathToDb = path.join(serverPath, '../data-base');
+  const pathToDb = path.join(serverPath, 'data-base');
 
   return {
     shopsRepository: new ShopsRepository({ pathToDb }),
