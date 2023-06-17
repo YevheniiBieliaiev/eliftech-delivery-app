@@ -1,7 +1,7 @@
+import path from 'path';
 import * as dotenv from 'dotenv';
 import express, { urlencoded, json } from 'express';
 import cors from 'cors';
-import path from 'path';
 import { getEnv } from '@helpers';
 import { errorHandler, loggerHandler } from '@middlewares';
 import { initRepositories } from '@repositories';
