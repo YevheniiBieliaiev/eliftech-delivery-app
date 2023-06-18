@@ -1,6 +1,7 @@
 name: Lint
 
 on:
+  workflow_dispatch:
   push:
     branches: ['main']
 
@@ -30,8 +31,8 @@ jobs:
 
       - name: Build
         env:
-          PORT: ${{env.PORT}}
-          NODE_ENV: ${{env.NODE_ENV}}
+          PORT: ${{vars.PORT}}
+          NODE_ENV: ${{vars.NODE_ENV}}
         run: |
           npm run build:all
           npm run db:generate:build
