@@ -30,8 +30,8 @@ jobs:
 
       - name: Build
         env:
-          PORT: ${{alien.vars.PORT}}
-          NODE_ENV: ${{alien.vars.NODE_ENV}}
+          PORT: ${{env.PORT}}
+          NODE_ENV: ${{env.NODE_ENV}}
         run: |
           npm run build:all
           npm run db:generate:build
