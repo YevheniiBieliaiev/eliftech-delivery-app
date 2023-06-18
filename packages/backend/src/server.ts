@@ -24,4 +24,4 @@ app
   .use(urlencoded({ extended: true }))
   .use(routes)
   .use(errorHandler)
-  .listen(port, () => console.log(`Server port is: ${port}`));
+  .listen(port, () => console.log(`Server is running on port: ${port}`));
