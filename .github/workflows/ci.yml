@@ -31,8 +31,9 @@ jobs:
       - name: Build
         run: |
           npm run build:all
+          npm run db:generate:build
           cd ..
           pm2 stop 0
-          NODE_ENV=${{vars.NODE_ENV}} PORT=${{vars.PORT}} pm2 start 0
+          pm2 start 0
           pm2 save
           sudo service nginx restart
