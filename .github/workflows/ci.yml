@@ -29,16 +29,10 @@ jobs:
           npm run lint:all
 
       - name: Build
-        env:
-          PORT: ${{vars.PORT}}
-          NODE_ENV: ${{vars.NODE_ENV}}
-          SUDO_KEY: ${{secrets.SUDO_SECRET}}
         run: |
           npm run build:all
           npm run db:generate:build
-          cd packages/backend
-          echo "PORT=$PORT NODE_ENV=$NODE_ENV" | sudo <<< "$SUDO_KEY" -S tee ./.env
-          cd ../..
+          echo "PORT=$PORT NODE_ENV=$NODE_ENV"
           pm2 stop 0
           pm2 start 0
           pm2 save
