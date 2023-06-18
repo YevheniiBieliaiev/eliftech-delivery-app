@@ -33,9 +33,12 @@ jobs:
           npm run build:all
           npm run db:generate:build
           cd packages/backend
-          echo "PORT=$PORT NODE_ENV=NODE_ENV" >> ./.env
+          echo "PORT=$PORT NODE_ENV=$NODE_ENV" >> ./.env
           cd ../..
           pm2 stop 0
           pm2 start 0
           pm2 save
           sudo service nginx restart
+        env:
+          PORT: ${{vars.PORT}}
+          NODE_ENV: ${{vars.NODE_ENV}}
