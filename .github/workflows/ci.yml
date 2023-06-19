@@ -34,7 +34,7 @@ jobs:
           npm run db:generate:build
           cd packages/backend
           sudo -S <<< "$SUDO_KEY" tee ./.env
-          echo -e "NODE_ENV=production\nPORT=$PORT" | sudo -S >> ./.env
+          echo -e "NODE_ENV=production\nPORT=$PORT" | sudo -S tee ./.env
           cd ../..
           pm2 restart 0
           pm2 stop 1
