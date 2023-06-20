@@ -3,7 +3,7 @@ const path = require('path');
 
 const pathEnv = path.join(
   __dirname,
-  '../../../var/www/delivery-app.com.ua',
+  '../../../',
   '.env',
 );
 
@@ -14,12 +14,13 @@ const pathEnv = path.join(
 const envObj = () => {
   const readFile = fs.readFileSync(pathEnv, 'utf-8').trim();
   const split = readFile.split('\n');
-
+  console.log(split);
+  
   return split.reduce((env, variable) => {
     const [key, value] = variable.split('=');
 
     return { ...env, [key]: value };
-  }, {});
+  }, {'NODE_ENV': 'production'});
 };
 
 module.exports = {
