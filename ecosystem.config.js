@@ -21,15 +21,18 @@ const envObj = () => {
   }, {'NODE_ENV': 'production'});
 };
 
+const env = envObj();
+
 module.exports = {
   apps: [
     {
-      name: 'delivery-app.com.ua',
+      name: env['APP'],
       script: 'npm',
       args: 'run start:be:serve',
-      cwd: '/var/www/delivery-app.com.ua/_work/eliftech-delivery-app/eliftech-delivery-app/',
+      cwd: env['CWD_APP'],
       env_production: {
-        ...envObj(),
+        PORT: env['PORT'],
+        NODE_ENV: env['NODE_ENV']
       },
     },
   ],
