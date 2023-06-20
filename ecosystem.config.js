@@ -1,7 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
-const pathEnv = path.join(__dirname, '/var/www/delivery-app.com.ua', '.env');
+const pathEnv = path.join(
+  __dirname,
+  '../../../var/www/delivery-app.com.ua',
+  '.env',
+);
 
 /**
  *
