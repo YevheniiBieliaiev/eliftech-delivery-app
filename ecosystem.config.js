@@ -1,14 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const pathBEEnv = path.join('./packages/backend', '.env');
+const pathEnv = path.join(__dirname, '/var/www/delivery-app.com.ua', '.env');
 
 /**
  *
  * @returns as object env variables with their values
  */
 const envObj = () => {
-  const readFile = fs.readFileSync(pathBEEnv, 'utf-8').trim();
+  const readFile = fs.readFileSync(pathEnv, 'utf-8').trim();
   const split = readFile.split('\n');
 
   return split.reduce((env, variable) => {
