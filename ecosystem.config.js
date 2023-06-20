@@ -2,8 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const pathEnv = path.join(
-  __dirname,
-  '../../../var/www/delivery-app.com.ua',
+  '../../../',
   '.env',
 );
 
@@ -19,7 +18,7 @@ const envObj = () => {
     const [key, value] = variable.split('=');
 
     return { ...env, [key]: value };
-  }, {});
+  }, {'NODE_ENV': 'production'});
 };
 
 module.exports = {
