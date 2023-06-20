@@ -25,7 +25,8 @@ module.exports = {
   apps: [
     {
       name: 'delivery-app.com.ua',
-      script: path.join('./packages/backend', 'build', 'server.js'),
+      script: 'npm',
+      args: 'run start:be:serve',
       env_production: {
         ...envObj(),
       },
