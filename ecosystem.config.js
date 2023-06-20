@@ -13,7 +13,7 @@ const pathEnv = path.join(
 const envObj = () => {
   const readFile = fs.readFileSync(pathEnv, 'utf-8').trim();
   const split = readFile.split('\n');
-
+  
   return split.reduce((env, variable) => {
     const [key, value] = variable.split('=');
 

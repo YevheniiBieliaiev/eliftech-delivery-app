@@ -19,6 +19,8 @@ export class ShopsRepository {
     const shopsReadPromise = util.promisify(fs.readFile);
     const productsReadPromise = util.promisify(fs.readFile);
 
+    console.log(this.pathToDb);
+    
     const shops = <IShopModel[]>(
       JSON.parse(
         await shopsReadPromise(
@@ -27,7 +29,7 @@ export class ShopsRepository {
         ),
       )
     );
-
+    
     const products = <IProductModel[]>(
       JSON.parse(
         await productsReadPromise(
