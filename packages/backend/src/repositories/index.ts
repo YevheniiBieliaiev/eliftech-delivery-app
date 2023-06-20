@@ -1,10 +1,12 @@
+import path from 'path';
 import type { InitRepositories } from '@interfaces';
 import { ShopsRepository } from './shops';
 import { AuthRepository } from './auth';
 import { OrdersRepository } from './orders';
 
 export const initRepositories = (): InitRepositories => {
-  const pathToDb = '../data-base';
+  const serverPath = path.dirname(process.argv[1]);
+  const pathToDb = path.join(serverPath, 'data-base');
 
   return {
     shopsRepository: new ShopsRepository({ pathToDb }),

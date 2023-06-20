@@ -27,6 +27,7 @@ module.exports = {
       name: 'delivery-app.com.ua',
       script: 'npm',
       args: 'run start:be:serve',
+      cwd: '/var/www/delivery-app.com.ua/_work/eliftech-delivery-app/eliftech-delivery-app/',
       env_production: {
         ...envObj(),
       },
