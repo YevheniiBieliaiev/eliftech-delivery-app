@@ -1,0 +1,81 @@
+.search__form {
+  border-radius: 4px;
+  border: 2px solid #313253;
+  margin-bottom: 25px;
+}
+
+.search__order {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 15px 10px;
+}
+
+.input {
+  width: 500px;
+  margin-right: 10px;
+}
+
+.orders {
+  border-radius: 4px;
+  border: 2px solid #313253;
+  height: 60vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.orders::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+.orders::-webkit-scrollbar-thumb {
+  background-color: #d1cece;
+  border-radius: 5px;
+}
+.orders::-webkit-scrollbar-button {
+  display: none;
+}
+
+.orers__content {
+  padding: 10px;
+}
+
+.order__container {
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.order__products {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  height: 165px;
+  width: 620px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.products::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 5px;
+}
+.products::-webkit-scrollbar-thumb {
+  background-color: #d1cece;
+  border-radius: 5px;
+}
+.products::-webkit-scrollbar-button {
+  display: none;
+}
+
+.order__amount {
+  width: 200px;
+  padding: 10px;
+}

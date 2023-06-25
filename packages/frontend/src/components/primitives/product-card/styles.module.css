@@ -15,7 +15,6 @@
 
 .visual {
   display: flex;
-  margin-bottom: 5px;
 }
 
 .action {
@@ -26,4 +25,8 @@
 
 .remove__btn {
   padding: 5px 10px;
+}
+
+.img__divider {
+  margin-right: 10px;
 }

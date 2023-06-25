@@ -1,14 +1,16 @@
 import { createSlice } from '@reduxjs/toolkit';
-import type { CardShopProps } from 'common/interfaces';
-import { submitOrder } from './actions';
+import type { CardShopProps, IOrdesResponse } from 'common/interfaces';
+import { submitOrder, userOrders } from './actions';
 
 interface OrderState {
   products: CardShopProps[];
+  orders: IOrdesResponse[];
   loading: boolean;
 }
 
 const initialState: OrderState = {
   products: [],
+  orders: [],
   loading: false,
 };
 
@@ -24,6 +26,19 @@ const orderSlice = createSlice({
       state.loading = false;
     });
     builder.addCase(submitOrder.rejected, (state) => {
+      state.loading = false;
+    });
+
+    builder.addCase(userOrders.pending, (state) => {
+      state.loading = true;
+    });
+
+    builder.addCase(userOrders.fulfilled, (state, action) => {
+      state.loading = false;
+      state.orders = action.payload;
+    });
+
+    builder.addCase(userOrders.rejected, (state) => {
       state.loading = false;
     });
   },

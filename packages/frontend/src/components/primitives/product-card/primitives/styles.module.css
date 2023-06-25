@@ -47,6 +47,11 @@
   color: #335304;
 }
 
+.count {
+  font-size: 18px;
+  line-height: 22px;
+}
+
 .input__count {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
   border: 1px solid transparent;

@@ -18,4 +18,8 @@ export interface ShopnameProps {
   shopName: string;
 }
 
+export interface CountProps {
+  count: number;
+}
+
 export interface InputCounterProps extends React.HTMLProps<HTMLInputElement> {}

@@ -12,3 +12,7 @@
 .inactive {
   color: #4a494d;
 }
+
+.current__path {
+  background: #cfcbcb;
+}

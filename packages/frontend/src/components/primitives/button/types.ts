@@ -1,4 +1,4 @@
-type ButtonStyle = 'shop' | 'cart' | 'delete';
+type ButtonStyle = 'shop' | 'cart' | 'delete' | 'search';
 
 export interface ButtonProps
   extends Omit<React.HTMLProps<HTMLButtonElement>, 'type'> {

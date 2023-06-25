@@ -4,12 +4,14 @@ import { authReducer, AUTH_TYPES } from './auth';
 import { shopReducer } from './shop';
 import { cartReducer } from './cart';
 import { orderReducer } from './order';
+import { toastReducer } from './toast';
 
 const combinedReducers = combineReducers({
   auth: authReducer,
   shop: shopReducer,
   cart: cartReducer,
   order: orderReducer,
+  toast: toastReducer,
 });
 
 export type RootState = ReturnType<typeof combinedReducers>;

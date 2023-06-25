@@ -39,7 +39,7 @@
 }
 
 .active:focus {
-  background: grey;
+  background: #808080;
 }
 
 .delete {
@@ -49,4 +49,18 @@
 
 .delete:hover {
   background: #d34a4a;
+}
+
+.search {
+  height: 42px;
+  background: #f1fa78;
+  padding: 0 15px
+}
+
+.search:hover {
+  background: #eeff00;
+}
+
+.search:active{
+  background: #a2ad04;
 }

@@ -19,7 +19,11 @@ const createDBdir = async (): Promise<void> => {
   await mkDirPromise(pathToDB, { recursive: true }).then(() => {
     filesModel.forEach((dbFile) => {
       const filePath = path.join(pathToDB, dbFile);
-      if (!fs.existsSync(filePath)) {
+      if (
+        !fs.existsSync(filePath) ||
+        dbFile === 'users.json' ||
+        dbFile === 'orders.json'
+      ) {
         fs.writeFileSync(filePath, '[]');
       }
     });

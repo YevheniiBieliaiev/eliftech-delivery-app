@@ -6,11 +6,16 @@ export const InternalLink = ({
   path,
   label,
   isInactive = false,
+  isPath = false,
 }: InternalLinkProps) => {
   const styles = [classes.internal__link];
 
   if (isInactive) {
     styles.push(classes.inactive);
+  }
+
+  if (isPath) {
+    styles.push(classes.current__path);
   }
 
   return (
