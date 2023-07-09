@@ -32,7 +32,8 @@ module.exports = {
       cwd: env['CWD_APP'],
       env_production: {
         PORT: env['PORT'],
-        NODE_ENV: env['NODE_ENV']
+        NODE_ENV: env['NODE_ENV'],
+        REACT_APP_MAP_KEY: env['REACT_APP_MAP_KEY']
       },
     },
   ],

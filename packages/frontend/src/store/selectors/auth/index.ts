@@ -10,3 +10,8 @@ export const userLoader = createSelector(loading, (loading) => loading);
 export const userId = createSelector(id, (id) => id);
 export const userName = createSelector(name, (name) => name);
 export const userEmail = createSelector(email, (email) => email);
+
+export const cartUserData = createSelector([name, email], (name, email) => ({
+  name,
+  email,
+}));

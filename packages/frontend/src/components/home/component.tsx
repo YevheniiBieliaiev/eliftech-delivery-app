@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useAppSelector, useAppDispatch } from 'hooks';
 import { getProducts, shopNameFilter } from 'store/shop';
 import { shopLoader } from 'store/selectors/shop';
-import { Sidebar, Products } from './primitives';
+import { Shops, Products } from './primitives';
 import classes from './styles.module.css';
 
 export const Home = () => {
@@ -24,7 +24,7 @@ export const Home = () => {
 
   return (
     <div className={classes.shop__wrapper}>
-      <Sidebar />
+      <Shops />
       <Products />
     </div>
   );

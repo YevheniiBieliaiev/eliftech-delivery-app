@@ -1,2 +1,2 @@
-export * from './sidebar';
+export * from './shops';
 export * from './products';

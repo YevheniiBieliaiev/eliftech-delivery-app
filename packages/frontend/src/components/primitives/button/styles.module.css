@@ -20,10 +20,6 @@
   padding: 10px;
 }
 
-.shop:nth-of-type(n) {
-  margin-bottom: 10px;
-}
-
 .shop:hover {
   background: #949292;
 }
@@ -54,13 +50,29 @@
 .search {
   height: 42px;
   background: #f1fa78;
-  padding: 0 15px
+  padding: 0 15px;
 }
 
 .search:hover {
   background: #eeff00;
 }
 
-.search:active{
+.search:active {
   background: #a2ad04;
+}
+
+.form {
+  width: 100%;
+  background: #313253;
+  color: #f0f8ff;
+}
+
+.form:hover {
+  background-color: #3396bb;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.form:disabled {
+  background-color: #707190;
+  pointer-events: none;
 }

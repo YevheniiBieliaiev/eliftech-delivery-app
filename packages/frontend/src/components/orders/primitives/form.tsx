@@ -34,14 +34,13 @@ export const Form = () => {
         <div className={classes.input}>
           <InputText
             {...register('orderIdentifier')}
-            id="orderIdentifier"
             label="Enter your phone, email or order id"
             placeholder="Phone, email, order id"
             error={errors.orderIdentifier?.message}
           />
         </div>
 
-        <Button type="submit" cssExtension="search">
+        <Button type="submit" cssExtension="search" disabled={loading}>
           {loading ? <Spinner /> : 'Search'}
         </Button>
       </div>

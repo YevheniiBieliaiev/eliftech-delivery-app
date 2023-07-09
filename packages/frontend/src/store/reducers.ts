@@ -5,6 +5,7 @@ import { shopReducer } from './shop';
 import { cartReducer } from './cart';
 import { orderReducer } from './order';
 import { toastReducer } from './toast';
+import { geoReducer } from './geo-position';
 
 const combinedReducers = combineReducers({
   auth: authReducer,
@@ -12,6 +13,7 @@ const combinedReducers = combineReducers({
   cart: cartReducer,
   order: orderReducer,
   toast: toastReducer,
+  geo: geoReducer,
 });
 
 export type RootState = ReturnType<typeof combinedReducers>;

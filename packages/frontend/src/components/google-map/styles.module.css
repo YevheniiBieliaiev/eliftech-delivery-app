@@ -1,0 +1,10 @@
+.map__wrapper {
+  padding: 15px;
+}
+
+.map {
+  position: relative;
+  border-radius: 4px;
+  width: 250px;
+  height: 250px;
+}

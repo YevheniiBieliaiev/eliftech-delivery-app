@@ -1,36 +1,39 @@
-.sidebar {
+.shops {
+  display: flex;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
   border-radius: 4px;
-  height: 70vh;
-  width: 250px;
+  margin-bottom: 15px;
+  height: 100px;
+  width: 100%;
   overflow: scroll;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
-.sidebar::-webkit-scrollbar {
-  width: 5px;
+.shops::-webkit-scrollbar {
+  height: 5px;
   border-radius: 5px;
 }
-.sidebar::-webkit-scrollbar-thumb {
+.shops::-webkit-scrollbar-thumb {
   background-color: #d1cece;
   border-radius: 5px;
 }
-.sidebar::-webkit-scrollbar-button {
+.shops::-webkit-scrollbar-button {
   display: none;
 }
 
 .button__group {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 10px;
   padding: 15px;
 }
 
 .products {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
   border-radius: 4px;
+  margin-bottom: 15px;
   height: 70vh;
-  width: 650px;
+  width: 100%;
   overflow: scroll;
   overflow-x: hidden;
 }

@@ -4,3 +4,8 @@
   max-width: 1000px;
   padding: 0 15px;
 }
+
+.container[data-content-pos='centered'] {
+  display: flex;
+  justify-content: center;
+}

@@ -1,4 +1,4 @@
-import { useState, forwardRef } from 'react';
+import { useState, forwardRef, useId } from 'react';
 import { SVGIcon } from 'components/primitives';
 import type { InputTextProps } from './types';
 import classes from './styles.module.css';
@@ -15,13 +15,14 @@ const Input = (
   ref: React.LegacyRef<HTMLInputElement>,
 ) => {
   const [showPassword, setShowPassword] = useState<boolean>(false);
+  const rId = useId();
 
   return (
     <div>
       {label && (
         <label
           className={classes.label}
-          htmlFor={id}
+          htmlFor={id ? id : rId}
           data-error={error && 'error'}
         >
           {label}
@@ -31,7 +32,7 @@ const Input = (
         <input
           ref={ref}
           className={classes.input}
-          id={id}
+          id={id ? id : rId}
           type={isPassword ? (showPassword ? 'text' : 'password') : 'text'}
           placeholder={placeholder}
           data-error={error && 'error'}
