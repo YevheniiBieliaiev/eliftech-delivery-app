@@ -1,9 +1,10 @@
 export enum ClientRoutes {
-  HOME = '/',
-  SIGN = '/sign',
+  ROOT = '/',
+  HOME = 'home',
+  SIGN = 'sign',
   SIGNIN = 'signin',
   SIGNUP = 'signup',
-  CART = '/cart',
-  HISTORY = '/history',
-  COUPONS = '/coupons',
+  CART = 'cart',
+  HISTORY = 'history',
+  COUPONS = 'coupons',
 }

@@ -37,12 +37,7 @@ export const Header = () => {
             isPath={isPath(pathname, ClientRoutes.HISTORY)}
           />
 
-          {!id && (
-            <InternalLink
-              label="Sign"
-              path={`${ClientRoutes.SIGN}/${ClientRoutes.SIGNIN} `}
-            />
-          )}
+          {!id && <InternalLink label="Sign" path={ClientRoutes.SIGNIN} />}
         </div>
       </Container>
     </header>

@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { PageTitle } from 'components/primitives';
 import { useAppSelector, useAppDispatch } from 'hooks';
 import { getProducts, shopNameFilter } from 'store/shop';
 import { shopLoader } from 'store/selectors/shop';
@@ -23,9 +24,11 @@ export const Home = () => {
   }
 
   return (
-    <div className={classes.shop__wrapper}>
-      <Shops />
-      <Products />
-    </div>
+    <PageTitle>
+      <div className={classes.shop__wrapper}>
+        <Shops />
+        <Products />
+      </div>
+    </PageTitle>
   );
 };

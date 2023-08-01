@@ -1,12 +1,15 @@
+import { PageTitle } from 'components/primitives';
 import { Form, UserOrders } from './primitives';
 
 export const Orders = () => (
-  <div>
+  <PageTitle title="HISTORY">
     <div>
-      <Form />
+      <div>
+        <Form />
+      </div>
+      <div>
+        <UserOrders />
+      </div>
     </div>
-    <div>
-      <UserOrders />
-    </div>
-  </div>
+  </PageTitle>
 );

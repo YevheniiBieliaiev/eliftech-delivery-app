@@ -6,3 +6,4 @@ export * from './input';
 export * from './icon';
 export * from './spinner';
 export * from './toast';
+export * from './page-title';

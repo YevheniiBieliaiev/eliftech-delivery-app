@@ -22,7 +22,6 @@
       "services": ["services"],
       "common/*": ["common/*"],
       "components/*": ["components/*"],
-      "pages": ["pages"],
       "providers": ["providers"],
       "helpers": ["helpers"],
       "validation": ["validation"]
